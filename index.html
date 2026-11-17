@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Body Works | Towing & Recovery South Africa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Emergency Dispatch Bar -->
+    <div class="dispatch-bar">
+        <div class="container dispatch-inner">
+            <span class="pulse-badge"><span class="dot"></span> 24/7 NATIONWIDE DISPATCH — SOUTH AFRICA</span>
+            <div class="dispatch-phones">
+                <a href="tel:0766173022">📞 Barney: <strong>076 617 3022</strong></a>
+                <span class="divider">|</span>
+                <a href="tel:0624420524">📞 Flip: <strong>062 442 0524</strong></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#top" class="brand">
+                <img src="logo.png" alt="Supreme Body Works Towing & Recovery Logo" class="nav-logo">
+                <div class="brand-text">
+                    <span class="brand-title">SUPREME BODY WORKS</span>
+                    <span class="brand-sub">TOWING &amp; RECOVERY</span>
+                </div>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#story">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#fleet">Fleet &amp; Action</a></li>
+                <li><a href="#quote">Get a Quote</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#quote" class="btn btn-red">Request Dispatch</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="top">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <div class="eyebrow">NATIONWIDE TRANSPORT • HEAVY RECOVERY • SOUTH AFRICA</div>
+                <h1>WE GET YOU <span class="text-chrome">WHERE YOU</span> <span class="text-red">NEED TO BE.</span></h1>
+                <p class="hero-lead">
+                    Your trusted transport and towing solution across South Africa. From emergency vehicle recovery and long-distance hauling to TLBs, generators, and heavy machinery—<strong>Supreme Auto Body Works</strong> delivers safely on time.
+                </p>
+                <div class="hero-cta">
+                    <a href="tel:0766173022" class="btn btn-red btn-lg">📞 Call Barney: 076 617 3022</a>
+                    <a href="tel:0624420524" class="btn btn-silver btn-lg">📞 Call Flip: 062 442 0524</a>
+                </div>
+                <div class="hero-trust">
+                    <span>✓ Long-Distance Hauling</span>
+                    <span>✓ Heavy Plant &amp; TLBs</span>
+                    <span>✓ 24/7 Emergency Recovery</span>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="logo-showcase">
+                    <img src="logo.png" alt="Supreme Body Works Official Crest" class="hero-crest">
+                </div>
+                <div class="truck-card">
+                    <img src="sidetruck.png" alt="Supreme Body Works Heavy Flatbed Carrier" class="hero-truck-img">
+                    <div class="truck-caption">
+                        <span class="badge-red">HEAVY FLATBED FLEET</span>
+                        <span>Equipped for Long-Distance Vehicles, TLBs &amp; Industrial Machinery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About / Commitment Strip -->
+    <section class="commitment" id="story">
+        <div class="container">
+            <div class="commitment-box reveal">
+                <div class="commitment-header">
+                    <span class="eyebrow">OUR COMMITMENT</span>
+                    <h2>Your Transport, Our Commitment. <span class="text-red">Your Journey, Our Priority.</span></h2>
+                </div>
+                <p>
+                    Are you looking for reliable, professional, and dependable transport or towing services? Look no further than <strong>Supreme Auto Body Works</strong>. No matter where in South Africa you need assistance—whether you need a vehicle transported over a long distance, heavy machinery moved to a new site, a generator delivered, or urgent roadside towing—our heavy-duty flatbed fleet and experienced operators are ready to get the job done.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head reveal">
+                <div>
+                    <span class="eyebrow">WHAT WE MOVE</span>
+                    <h2>PROFESSIONAL TOWING &amp; <span class="text-chrome">TRANSPORT SERVICES</span></h2>
+                </div>
+                <div class="filter-bar" id="serviceFilters">
+                    <button class="filter-btn active" data-filter="all">All Services</button>
+                    <button class="filter-btn" data-filter="towing">Towing &amp; Vehicles</button>
+                    <button class="filter-btn" data-filter="machinery">Machinery &amp; Plant</button>
+                </div>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card reveal" data-category="towing">
+                    <div class="service-num">01</div>
+                    <h3>Long-Distance Transporting</h3>
+                    <p>Safe, reliable inter-provincial and cross-country transport anywhere in South Africa with full load security.</p>
+                    <button class="text-link select-service-btn" data-service="Long-Distance Transporting">Book This Service →</button>
+                </article>
+
+                <article class="service-card reveal" data-category="towing">
+                    <div class="service-num">02</div>
+                    <h3>Professional Towing Services</h3>
+                    <p>Rapid-response breakdown and accident recovery handled with care by experienced flatbed specialists.</p>
+                    <button class="text-link select-service-btn" data-service="Professional Towing Services">Book This Service →</button>
+                </article>
+
+                <article class="service-card reveal" data-category="towing">
+                    <div class="service-num">03</div>
+                    <h3>Vehicle Transportation</h3>
+                    <p>Door-to-door flatbed transport for passenger cars, bakkies, SUVs, dealership stock, and project builds.</p>
+                    <button class="text-link select-service-btn" data-service="Vehicle Transportation">Book This Service →</button>
+                </article>
+
+                <article class="service-card reveal" data-category="machinery">
+                    <div class="service-num">04</div>
+                    <h3>Generator Transportation</h3>
+                    <p>Heavy-duty lifting, loading, and secure site delivery for commercial, backup, and industrial generators.</p>
+                    <button class="text-link select-service-btn" data-service="Generator Transportation">Book This Service →</button>
+                </article>
+
+                <article class="service-card reveal" data-category="machinery">
+                    <div class="service-num">05</div>
+                    <h3>TLB Transportation</h3>
+                    <p>Specialized earthmoving plant transport for TLBs between construction, mining, and agricultural sites.</p>
+                    <button class="text-link select-service-btn" data-service="TLB Transportation">Book This Service →</button>
+                </article>
+
+                <article class="service-card reveal" data-category="machinery">
+                    <div class="service-num">06</div>
+                    <h3>Machinery Transportation</h3>
+                    <p>Heavy industrial equipment and workshop machinery hauled safely across South Africa on reinforced decks.</p>
+                    <button class="text-link select-service-btn" data-service="Machinery Transportation">Book This Service →</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Photos & Action Videos -->
+    <section class="fleet-section" id="fleet">
+        <div class="container">
+            <div class="section-head reveal">
+                <div>
+                    <span class="eyebrow">OUR RIGS IN ACTION</span>
+                    <h2>FLEET GALLERY &amp; <span class="text-red">LIVE FOOTAGE</span></h2>
+                </div>
+                <p class="section-sub">Click any photo to inspect full-size or watch our Loadforce flatbed rigs in action.</p>
+            </div>
+
+            <!-- Photo Grid -->
+            <div class="photo-grid">
+                <div class="media-card reveal" data-img="sidetruck.png" data-caption="Supreme Body Works Heavy Flatbed Carrier — Side Profile">
+                    <img src="sidetruck.png" alt="Supreme Body Works Flatbed Side View">
+                    <div class="media-overlay">
+                        <span class="badge-silver">SIDE PROFILE</span>
+                        <h4>Long-Distance Flatbed Carrier</h4>
+                    </div>
+                </div>
+
+                <div class="media-card reveal" data-img="front.png" data-caption="Supreme Transport — Heavy-Duty Front Rig">
+                    <img src="front.png" alt="Supreme Transport Front View">
+                    <div class="media-overlay">
+                        <span class="badge-red">FRONT VIEW</span>
+                        <h4>Supreme Heavy Hauler</h4>
+                    </div>
+                </div>
+
+                <div class="media-card reveal" data-img="left.png" data-caption="Loadforce Transport — Left Quarter Angle">
+                    <img src="left.png" alt="Loadforce Transport Left View">
+                    <div class="media-overlay">
+                        <span class="badge-silver">PORT SIDE</span>
+                        <h4>Loadforce Carrier Rig</h4>
+                    </div>
+                </div>
+
+                <div class="media-card reveal" data-img="right.png" data-caption="Loadforce Transport — Right Quarter Angle">
+                    <img src="right.png" alt="Loadforce Transport Right View">
+                    <div class="media-overlay">
+                        <span class="badge-red">STARBOARD SIDE</span>
+                        <h4>Nationwide Recovery Unit</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Showcase -->
+            <div class="video-grid">
+                <div class="video-card reveal">
+                    <video controls muted playsinline preload="metadata" poster="front.png">
+                        <source src="loadforce.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <span class="badge-red">VIDEO 01</span>
+                        <h4>Loadforce Front Lightbar &amp; Rig Walkaround</h4>
+                    </div>
+                </div>
+
+                <div class="video-card reveal">
+                    <video controls muted playsinline preload="metadata" poster="sidetruck.png">
+                        <source src="side.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <span class="badge-silver">VIDEO 02</span>
+                        <h4>Full Side Deck &amp; Night Lighting Showcase</h4>
+                    </div>
+                </div>
+
+                <div class="video-card reveal">
+                    <video controls muted playsinline preload="metadata" poster="right.png">
+                        <source src="back.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <span class="badge-red">VIDEO 03</span>
+                        <h4>Full Truck 360&deg; &amp; Recovery Setup</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Instant WhatsApp Dispatch Section -->
+    <section class="dispatch-section" id="quote">
+        <div class="container dispatch-grid">
+            <div class="contact-panel reveal">
+                <span class="eyebrow">NEED A TOW OR TRANSPORT?</span>
+                <h2>GIVE OUR TEAM A <span class="text-red">CALL TODAY!</span></h2>
+                <p>Available across South Africa for urgent recoveries, scheduled vehicle moves, TLBs, generators, and heavy machinery.</p>
+
+                <div class="contact-cards">
+                    <div class="person-card">
+                        <div class="person-meta">
+                            <span class="role">DISPATCH &amp; TRANSPORT</span>
+                            <h3>Barney</h3>
+                            <a href="tel:0766173022" class="phone-big">076 617 3022</a>
+                        </div>
+                        <div class="person-btns">
+                            <a href="tel:0766173022" class="btn btn-red">Call Now</a>
+                            <a href="https://wa.me/27766173022?text=Hi%20Barney%2C%20I%20need%20a%20quote%20from%20Supreme%20Body%20Works%20Towing%20%26%20Recovery." target="_blank" rel="noopener" class="btn btn-silver">WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="person-card">
+                        <div class="person-meta">
+                            <span class="role">DISPATCH &amp; RECOVERY</span>
+                            <h3>Flip</h3>
+                            <a href="tel:0624420524" class="phone-big">062 442 0524</a>
+                        </div>
+                        <div class="person-btns">
+                            <a href="tel:0624420524" class="btn btn-red">Call Now</a>
+                            <a href="https://wa.me/27624420524?text=Hi%20Flip%2C%20I%20need%20a%20quote%20from%20Supreme%20Body%20Works%20Towing%20%26%20Recovery." target="_blank" rel="noopener" class="btn btn-silver">WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Quote Builder -->
+            <form class="quote-form reveal" id="quoteForm">
+                <h3>Instant WhatsApp Quote Builder</h3>
+                <p class="form-sub">Fill in your load details to send an instant pre-filled message directly to Barney or Flip.</p>
+
+                <div class="form-group">
+                    <label for="clientName">Your Name</label>
+                    <input type="text" id="clientName" placeholder="e.g. Johan van der Merwe" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="serviceType">Service Required</label>
+                    <select id="serviceType" required>
+                        <option value="Long-Distance Transporting">Long-Distance Transporting</option>
+                        <option value="Professional Towing Services">Professional Towing Services</option>
+                        <option value="Vehicle Transportation">Vehicle Transportation</option>
+                        <option value="Generator Transportation">Generator Transportation</option>
+                        <option value="TLB Transportation">TLB Transportation</option>
+                        <option value="Machinery Transportation">Machinery Transportation</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pickupLoc">Pickup Town / Area</label>
+                        <input type="text" id="pickupLoc" placeholder="e.g. Secunda / Johannesburg" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dropoffLoc">Drop-off Town / Area</label>
+                        <input type="text" id="dropoffLoc" placeholder="e.g. Pretoria / Durban" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="loadNotes">Vehicle / Machinery Details</label>
+                    <textarea id="loadNotes" rows="3" placeholder="e.g. 1x TLB or Sedan, running/non-running, preferred date..."></textarea>
+                </div>
+
+                <div class="form-submit-row">
+                    <button type="submit" class="btn btn-red btn-full">Send to Barney via WhatsApp</button>
+                    <button type="button" id="sendFlipBtn" class="btn btn-silver btn-full">Send to Flip via WhatsApp</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="logo.png" alt="Supreme Body Works Logo" class="footer-logo">
+                <div>
+                    <h4>SUPREME BODY WORKS – TOWING &amp; RECOVERY</h4>
+                    <p>We get you where you need to be! Serving all provinces across South Africa.</p>
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <p><strong>Barney:</strong> <a href="tel:0766173022">076 617 3022</a> | <a href="https://wa.me/27766173022" target="_blank" rel="noopener">WhatsApp</a></p>
+                <p><strong>Flip:</strong> <a href="tel:0624420524">062 442 0524</a> | <a href="https://wa.me/27624420524" target="_blank" rel="noopener">WhatsApp</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Supreme Auto Body Works Towing &amp; Recovery. All Rights Reserved.</p>
+            <p class="creator-credit">Designed & Developed by <a href="#" class="creator-link">RSP Interactive</a></p>
+			
+        </div>
+    </footer>
+
+    <!-- Fullscreen Image Lightbox Modal -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close Image">&times;</button>
+        <img src="" alt="Expanded Fleet View" id="lightboxImg">
+        <p id="lightboxCaption"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
